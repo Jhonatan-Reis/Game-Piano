@@ -30,5 +30,5 @@ const handleVolume = (e)=>{
 
     console.log(e.target.value);
 }
-volume.addEventListener("input", handleVolume)
+document.addEventListener("input", handleVolume)
 tecla.addEventListener("click", showHidekeys)
